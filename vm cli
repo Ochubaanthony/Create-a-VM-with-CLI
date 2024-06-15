@@ -1,0 +1,9 @@
+az vm create \
+  --resource-group AnthonyGroup \
+  --name vmName \
+  --image Ubuntu2204 \
+  --vnet-name default \
+  --subnet default \
+  --generate-ssh-keys \
+  --output json \
+  --verbose
